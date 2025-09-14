@@ -3,7 +3,7 @@
 This repository contains my solutions for the **"Algorithms & Problem Solving Level 4"** course by [Programming Advices](https://programmingadvices.com).
 
 <p align="center">
-  <img src="./courseImage.jpg" alt="Course Image" width="600"/>
+  <img src="./courseImage.png" alt="Course Image" width="600"/>
 </p>
 
 > [!IMPORTANT]
