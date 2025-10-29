@@ -37,9 +37,9 @@ enComparisonResults CompareDates(stDate Date1, stDate Date2)
 bool IsOverlapPeriods(stPeriod Period1, stPeriod Period2)
 {
     if(
-        CompareDates(Period2.EndDate, Period1.StartDate) ==enComparisonResults::Before
+       MyDateLib:: CompareDates(Period2.EndDate, Period1.StartDate) ==enComparisonResults::Before
         ||
-		CompareDates(Period2.StartDate, Period1.EndDate) == enComparisonResults::After
+		MyDateLib:: CompareDates(Period2.StartDate, Period1.EndDate) == enComparisonResults::After
         )
 		return false;
     else
